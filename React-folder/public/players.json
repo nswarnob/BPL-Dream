@@ -1,0 +1,122 @@
+[
+  {
+    "image": "https://picsum.photos/150?random=1",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 9.5,
+    "price": 120000,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox"
+  },
+  {
+    "image": "https://picsum.photos/150?random=2",
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": 8.7,
+    "price": 95000,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak"
+  },
+  {
+    "image": "https://picsum.photos/150?random=3",
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper-Batsman",
+    "rating": 8.9,
+    "price": 100000,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Keeper"
+  },
+  {
+    "image": "https://picsum.photos/150?random=4",
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "rating": 9.4,
+    "price": 140000,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast"
+  },
+  {
+    "image": "https://picsum.photos/150?random=5",
+    "name": "Chris Gayle",
+    "country": "West Indies",
+    "role": "Batsman",
+    "rating": 9.2,
+    "price": 130000,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak"
+  },
+  {
+    "image": "https://picsum.photos/150?random=6",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "rating": 9.6,
+    "price": 150000,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm legbreak googly"
+  },
+  {
+    "image": "https://picsum.photos/150?random=7",
+    "name": "David Miller",
+    "country": "South Africa",
+    "role": "Batsman",
+    "rating": 8.5,
+    "price": 90000,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak"
+  },
+  {
+    "image": "https://picsum.photos/150?random=8",
+    "name": "Sunil Narine",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "rating": 9.0,
+    "price": 110000,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak"
+  },
+  {
+    "image": "https://picsum.photos/150?random=9",
+    "name": "Kieron Pollard",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "rating": 9.1,
+    "price": 115000,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium"
+  },
+  {
+    "image": "https://picsum.photos/150?random=10",
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 8.8,
+    "price": 105000,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium"
+  },
+  {
+    "image": "https://picsum.photos/150?random=11",
+    "name": "Imrul Kayes",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": 7.9,
+    "price": 70000,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak"
+  },
+  {
+    "image": "https://picsum.photos/150?random=12",
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper-Batsman",
+    "rating": 8.3,
+    "price": 85000,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Keeper"
+  }
+]
