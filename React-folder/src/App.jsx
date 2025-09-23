@@ -21,6 +21,7 @@ const removePlayers = (player)=>{
   console.log(player);
         const remove = selectedPlayers.filter(p=>p.name !== player.name)
         setSelectedPlayers(remove);
+        setAvailibleBalance(availibleBalance + player.price)
 }
 
 
