@@ -3,12 +3,10 @@ import React from 'react';
 
 
 
-const SelectedPlayerCard = ({player, selectedPlayers, setSelectedPlayers}) => {
+const SelectedPlayerCard = ({player, removePlayers}) => {
     
   const handleRemove =(player)=>{ 
-    console.log("selectedPlayers array:", selectedPlayers);
-        const remove = selectedPlayers.filter(p=>p.name !== player.name)
-        setSelectedPlayers(remove);
+    removePlayers(player)
     }
 
     

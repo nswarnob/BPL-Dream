@@ -16,6 +16,17 @@ function App() {
   const [toggle, setToggle] = useState(true)
   const [selectedPlayers, setSelectedPlayers] = useState([])
 
+
+const removePlayers = (player)=>{
+  console.log(player);
+        const remove = selectedPlayers.filter(p=>p.name !== player.name)
+        setSelectedPlayers(remove);
+}
+
+
+
+
+
   return (
     <>
       <Nav availibleBalance={availibleBalance} ></Nav>
@@ -32,7 +43,7 @@ function App() {
         <span className="loading loading-spinner loading-lg"></span>
       </div>} >
         <Availible selectedPlayers={selectedPlayers}  setSelectedPlayers={setSelectedPlayers} fetchPromises={fetchPromises} availibleBalance={availibleBalance} setAvailibleBalance={setAvailibleBalance} ></Availible>
-      </Suspense>: <Selected setSelectedPlayers={setSelectedPlayers} selectedPlayers ={selectedPlayers} ></Selected>
+      </Suspense>: <Selected removePlayers={removePlayers} selectedPlayers ={selectedPlayers} ></Selected>
  }
 
       
