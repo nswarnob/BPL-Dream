@@ -1,19 +1,24 @@
 import React, { useState } from 'react';
 import userImg from '../../assets/user1.png'
 import reportImg from '../../assets/report.png'
+import { toast } from 'react-toastify';
 
-const PlayersCard = ({ player, setAvailibleBalance, availibleBalance, selectedPlayers, setSelectedPlayers}) => {
-   
-   
+const PlayersCard = ({ player, setAvailibleBalance, availibleBalance, selectedPlayers, setSelectedPlayers }) => {
+
+
     const [isSelected, setSelected] = useState(false)
 
     const hadleSelected = (player) => {
-        setSelected(true);
-
-        if(availibleBalance < player.price){
-         alert("Not Enough Coins.")
-         return
+     
+        if (availibleBalance < player.price) {
+            toast("Not Enough Coins.")
+            return;
         }
+        if(selectedPlayers.length === 5){
+            toast("You can only hire 5 players.")
+            return;
+        }
+        setSelected(true);
         setAvailibleBalance(availibleBalance - player.price);
         setSelectedPlayers([...selectedPlayers, player])
     }

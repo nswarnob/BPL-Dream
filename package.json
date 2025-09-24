@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "daisyui": "^5.1.14"
+  },
+  "dependencies": {
+    "react-toastify": "^4.5.2",
+    "react-transition-group": "^4.4.5"
   }
 }
